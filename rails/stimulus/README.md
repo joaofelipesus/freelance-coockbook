@@ -91,3 +91,33 @@ export default class extends Controller {
   >
 </div>
 ```
+
+## Reaproveitamento de código
+
+Algumas ações são comuns em diferentes controllers, como por exemplo, exibir ou ocultar um elemento
+com isso podem ser extraídas funções comuns para um módulo e incluídas nos controllers que necessitam
+dessa ação. No diretório `rails/stimulus/mixins` existem alguns arquivos que contém funções comuns
+que podem ser utilizadas em diferentes controllers.
+
+```javascript
+import { Controller } from "@hotwired/stimulus"
+import { toggleRelatedCommentField } from '../helpers/checkbox_field_helpers'
+
+// Connects to data-controller="lab-test-form"
+export default class extends Controller {
+  static targets = [
+    'erythrogramCheckbox', 'erythrogramComment'
+  ]
+
+  connect() {
+    this.toggleErythrogramComment()
+  }
+
+  toggleErythrogramComment() {
+    toggleRelatedCommentField(this.erythrogramCheckboxTarget, this.erythrogramCommentTarget)
+  }
+}
+```
+
+Com o tempo funções e comportamentos comuns serão extraidas para mixins e podem ser copiados para
+novos projetos simplificando a implementação de novos controllers.
