@@ -7,6 +7,7 @@ no futuro serão adicionados outros frameworks e tecnologias com as quais estamo
 ## Ruby on Rails
 
   - ActiveStorage [TODO]
+  - Configurar novo projeto [TODO]
   - Criptografia de atributos [TODO]
   - Docker [TODO]
     - Dockerfile & docker-compose [TODO]
