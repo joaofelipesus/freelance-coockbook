@@ -6,20 +6,20 @@ no futuro serão adicionados outros frameworks e tecnologias com as quais estamo
 
 ## Ruby on Rails
 
-  - [Stimulus controllers](rails/stimulus/README.md)
   - ActiveStorage [TODO]
-  - Turbo [TODO]
   - Criptografia de atributos [TODO]
-  - Solid queue [TODO]
-  - Rails credentials [TODO]
-  - Heroku [TODO]
-    - Procfile [TODO]
   - Docker [TODO]
     - Dockerfile & docker-compose [TODO]
-  - Github Actions [TODO]
-  - Tests e2e [TODO]
   - Exportação de dados [TODO]
+  - Github Actions [TODO]
+  - Heroku [TODO]
+    - Procfile [TODO]
+  - MiniTest [TODO]
+  - Rails credentials [TODO]
+  - Solid queue [TODO]
+  - [Stimulus controllers](rails/stimulus/README.md)
   - Testes
-    - MiniTest [TODO]
     - Fixtures [TODO]
+    - MiniTest [TODO]
+  - Turbo [TODO]
 
