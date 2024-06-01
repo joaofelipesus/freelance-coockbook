@@ -6,7 +6,7 @@ no futuro serão adicionados outros frameworks e tecnologias com as quais estamo
 
 ## Ruby on Rails
 
-  - Stimulus controllers [TODO]
+  - [Stimulus controllers](rails/stimulus/README.md)
   - ActiveStorage [TODO]
   - Turbo [TODO]
   - Criptografia de atributos [TODO]
