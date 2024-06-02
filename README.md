@@ -17,7 +17,7 @@ no futuro serão adicionados outros frameworks e tecnologias com as quais estamo
     - Procfile [TODO]
   - MiniTest [TODO]
   - Rails credentials [TODO]
-  - Solid queue [TODO]
+  - [Solid queue](rails/solid_queue/README.md)
   - [Stimulus controllers](rails/stimulus/README.md)
   - Testes
     - Fixtures [TODO]
