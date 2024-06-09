@@ -13,7 +13,6 @@ Para que seja possível carregar versões anteriores de um modelo através da ch
 config.active_record.yaml_column_permitted_classes = %w[Symbol Date Time BigDecimal]
 ```
 
-
 ### Uso
 
 Para que um model tenha as versões salvas na tabela `versions` deve conter o helper `has_paper_trail`, com isso sempre que algum registro sofrer alteração será criado um novo registro em `versions`. Os objetos desta classe passam a possuir os seguintes métodos utilizados para manipular versões dos objetos:
