@@ -11,7 +11,7 @@ no futuro serão adicionados outros frameworks e tecnologias com as quais estamo
   - Criptografia de atributos [TODO]
   - Docker [TODO]
     - Dockerfile & docker-compose [TODO]
-  - Exportação de dados [TODO]
+  - Exportação de dados [Data export](rails/data_export/README.md)
   - Github Actions [TODO]
   - Heroku [TODO]
     - Procfile [TODO]
